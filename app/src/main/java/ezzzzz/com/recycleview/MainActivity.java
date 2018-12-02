@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         adapter adp = new adapter(MainActivity.this,arrydata);
         //adapter
         recyclerView.setAdapter(adp);
+        
     }
 
     public void datas () {
